@@ -1,11 +1,11 @@
 import { FC } from "react";
-import FormComponent from "../formComponent/FormComponent";
 import UserSettings from "../userSettings/UserSettings";
+import ToggleComponent from "../toggleComponent/ToggleComponent";
 
 const App: FC = () => {
   return (
     <>
-      <FormComponent />
+      <ToggleComponent />
       <UserSettings />
     </>
   );
